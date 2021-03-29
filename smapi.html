@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <title>Stardew Homewrecker</title>
+    <link rel="icon" href="img/chicken.png">
+  </head>
+  <header>
+    <!--nav bar-->
+    <nav
+      class="navbar navbar-custom navbar-expand-lg navbar-dark"
+      aria-label="Eighth navbar example"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img src="img/chicken.png" alt="Stardew" width="50px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample07"
+          aria-controls="navbarsExample07"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="smapi.html">Install Smapi</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdown07"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Mods</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="dropdown07">
+                <li><a class="dropdown-item" href="implementingmods.html">How to install mods</a></li>
+                <li><a class="dropdown-item" href="modinstallation.html">Getting started</a></li>
+                <li><a class="dropdown-item" href="mods.html">Mods list</a></li>
+                <li><a class="dropdown-item" href="#">Villager Potraits/Sprites</a></li>
+                <li><a class="dropdown-item" href="#">Quality of life</a></li>
+                <li><a class="dropdown-item" href="#">Aesthetics</a></li>
+                <li><a class="dropdown-item" href="#">Miscellaneous</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+    <body>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <section class="step1">
+      <h3>STEP 1</h3>
+      <h2>download smapi</h2>
+      <p>
+        If you havent bought Stardew Valley off steam please purchase it and
+        have it installed and running. <br />
+
+        tutorial made with help from
+        <a
+          href="https://stardewvalleywiki.com/Modding:Player_Guide/Getting_Started#Getting_started"
+        >
+          stardew wiki - modding guide
+        </a>
+      </p>
+      <img src="img/smapi.PNG" alt="smapi image" />
+      <a href="https://smapi.io/"
+        ><img src="img/download.png" alt="download here"
+      /></a>
+      <p></p>
+    </section>
+    <section class="step2">
+      <h3>STEP 2</h3>
+      <h2>setting up SMAPI - launch from Steam</h2>
+      <p>
+        when launching SMAPI keep your installer open and take note of the the
+        following command, you will need it
+      </p>
+      <img
+        src="img/installercode.PNG"
+        alt="image of the code you will use to launch smapi"
+      />
+      <p>
+        open up steam and go to game libraries, right click stardew and click
+        properties > launch options. copy and paste the command in launch
+        options
+      </p>
+      <img
+        src="img/properties.PNG"
+        alt="right clicking stardew and selecting properties"
+      />
+      <img src="img/general.PNG" alt="paste code into launch options" />
+      <p>
+        After you should be able to launch within steam and SMAPI will start up
+        with a terniml/command screen. It will tell you if mods are working or
+        not
+      </p>
+      <h2>setting up SMAPI - launch from shortcut</h2>
+      <p>
+        find the stardew folder, C drive> Program files (x86)> steam > steamapps
+        > common > Stardew Valley
+      </p>
+      <img src="img/stardewfolder.PNG" alt="stardew folder" />
+      <p>Find StardewModdingAPI, right click and create a shortcut</p>
+      <img src="img/shortcut.PNG" alt="shortcut" /><img
+        src="img/smapishortcut.PNG"
+        alt="smapishortcut"
+      />
+      <p>Then you can just launch from desktop!</p>
+    </section>
+    <section class="next">
+      <a href="modinstallation.html"
+        ><img src="img/installingmods.png" alt="next: installing mods"
+      /></a>
+    </section>
+  </body>
+</html>
